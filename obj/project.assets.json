@@ -4534,24 +4534,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/johnvaller/.nuget/packages/": {}
+    "C:\\Users\\Jeff\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/johnvaller/Desktop/API_MaestroDetalle/API_MaestroDetalle.csproj",
+      "projectUniqueName": "C:\\Users\\Jeff\\Desktop\\projects\\ASP.NET_CORE_API_Maestro_Detalle_EntityFrameworkCore\\API_MaestroDetalle.csproj",
       "projectName": "API_MaestroDetalle",
-      "projectPath": "/Users/johnvaller/Desktop/API_MaestroDetalle/API_MaestroDetalle.csproj",
-      "packagesPath": "/Users/johnvaller/.nuget/packages/",
-      "outputPath": "/Users/johnvaller/Desktop/API_MaestroDetalle/obj/",
+      "projectPath": "C:\\Users\\Jeff\\Desktop\\projects\\ASP.NET_CORE_API_Maestro_Detalle_EntityFrameworkCore\\API_MaestroDetalle.csproj",
+      "packagesPath": "C:\\Users\\Jeff\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jeff\\Desktop\\projects\\ASP.NET_CORE_API_Maestro_Detalle_EntityFrameworkCore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
+      ],
       "configFilePaths": [
-        "/Users/johnvaller/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Jeff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4618,7 +4626,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

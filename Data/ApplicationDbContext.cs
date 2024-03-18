@@ -9,6 +9,12 @@ namespace API_MaestroDetalle.Data
         {
 
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DetallePedido>()
+                .Property(dp => dp.PrecioUnitario)
+                .HasColumnType("decimal(18,2)"); // Especifica precisión y escala según tus necesidades
+        }
 
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<DetallePedido> DetallesPedidos { get; set; }
